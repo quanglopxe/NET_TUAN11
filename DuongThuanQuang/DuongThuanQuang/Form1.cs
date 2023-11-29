@@ -14,6 +14,7 @@ namespace DuongThuanQuang
 {
     public partial class Form1 : Form
     {
+        bool isExit = true;
         SqlConnection conn = new SqlConnection("Data Source=A209PC38;Initial Catalog=QL_SP;Integrated Security=True");
         DataSet ds_SP = new DataSet();
         SqlDataAdapter da;
@@ -90,6 +91,22 @@ namespace DuongThuanQuang
             dtgv_SP.DataSource = dt;
             MessageBox.Show("Sửa thành công!");
         }
+
+        private void Form1_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            if (isExit == true)
+                Application.Exit();
+        }
+
+        private void btn_Logout_Click(object sender, EventArgs e)
+        {
+            isExit = false;
+            this.Hide();
+            fLogin f = new fLogin();
+            f.Show();
+        }
+
+        
 
     }
 }

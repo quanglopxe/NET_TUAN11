@@ -7,3 +7,4 @@ E:\LuuDuLieuSinhVien\NET_TUAN11\DuongThuanQuang\DuongThuanQuang\obj\Debug\DuongT
 E:\LuuDuLieuSinhVien\NET_TUAN11\DuongThuanQuang\DuongThuanQuang\obj\Debug\DuongThuanQuang.csproj.GenerateResource.Cache
 E:\LuuDuLieuSinhVien\NET_TUAN11\DuongThuanQuang\DuongThuanQuang\obj\Debug\DuongThuanQuang.exe
 E:\LuuDuLieuSinhVien\NET_TUAN11\DuongThuanQuang\DuongThuanQuang\obj\Debug\DuongThuanQuang.pdb
+E:\LuuDuLieuSinhVien\NET_TUAN11\DuongThuanQuang\DuongThuanQuang\obj\Debug\DuongThuanQuang.fLogin.resources

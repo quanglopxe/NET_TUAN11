@@ -37,6 +37,7 @@
             this.txt_MaSP = new System.Windows.Forms.TextBox();
             this.txt_TenSP = new System.Windows.Forms.TextBox();
             this.dtgv_SP = new System.Windows.Forms.DataGridView();
+            this.btn_Logout = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dtgv_SP)).BeginInit();
             this.SuspendLayout();
             // 
@@ -121,11 +122,22 @@
             this.dtgv_SP.TabIndex = 3;
             this.dtgv_SP.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgv_SP_CellClick);
             // 
+            // btn_Logout
+            // 
+            this.btn_Logout.Location = new System.Drawing.Point(459, 35);
+            this.btn_Logout.Name = "btn_Logout";
+            this.btn_Logout.Size = new System.Drawing.Size(113, 35);
+            this.btn_Logout.TabIndex = 4;
+            this.btn_Logout.Text = "Đăng xuất";
+            this.btn_Logout.UseVisualStyleBackColor = true;
+            this.btn_Logout.Click += new System.EventHandler(this.btn_Logout_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(792, 541);
+            this.Controls.Add(this.btn_Logout);
             this.Controls.Add(this.dtgv_SP);
             this.Controls.Add(this.txt_TenSP);
             this.Controls.Add(this.txt_MaSP);
@@ -139,6 +151,7 @@
             this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);
             ((System.ComponentModel.ISupportInitialize)(this.dtgv_SP)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -156,6 +169,7 @@
         private System.Windows.Forms.TextBox txt_MaSP;
         private System.Windows.Forms.TextBox txt_TenSP;
         private System.Windows.Forms.DataGridView dtgv_SP;
+        private System.Windows.Forms.Button btn_Logout;
     }
 }
 
